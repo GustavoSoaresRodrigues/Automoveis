@@ -1,0 +1,14 @@
+public class principal_automoveis {
+
+	public static void main(String[] args) {
+		
+		carro c = new carro("Fiat" , "BIH45I10" , "Marrom");
+		moto m = new moto("Titan" , "TVD20E54" , "Verde");
+		caminhao n = new caminhao("Volvo FH" , "WIR12J54" , "Azul");
+		
+		c.apresentarCarro();
+		m.apresentarMoto();
+		n.apresentarCaminhao();
+	}
+
+}
